@@ -12,23 +12,38 @@
 
 <body>
     <header>
-        <h1 class="heading">Linear Equations</h1>
+        <p class="heading">Linear Equations</p>
         <hr>
     </header>
     <main>
-        <p id="abc">ax+by+c=0</p>
-        a<input type="number" id="a">
-        b<input type="number" id="b">
-        c<input type="number" id="c">
-        <p id="pqr">px+qy+r=0</p>
-        p<input type="number" id="p">
-        q<input type="number" id="q">
-        r<input type="number" id="r"> <br>
-        <button id="btn" onclick="program()">Show Results</button>
-        <div id="answer"></div>
+        <p id="abc" class="side">ax+by+c=0</p>
+        <div class="label"><label>A</label><input type="number" id="a" placeholder="Value of a" class="input"> </div>
+        <br>
+        <div class="label"><label>B</label><input type="number" id="b" placeholder="Value of b" class="input"> </div>
+        <br>
+        <div class="label"><label>C</label><input type="number" id="c" placeholder="Value of c" class="input"> </div>
+        <br>
 
+        <p id="pqr" class="side">px+qy+r=0</p>
+        <div class="label"><label>P</label><input type="number" id="p" placeholder="Value of p" class="input"> </div>
+        <br>
+        <div class="label"><label>Q</label><input type="number" id="q" placeholder="Value of q" class="input"> </div>
+        <br>
+        <div class="label"><label>R</label><input type="number" id="r" placeholder="Value of r" class="input"> </div>
+        <br>
+
+        <button id="btn" onclick="program()">Show Results</button>
+        <div>
+            <div id="answer"></div>
+            <img 
+        </div>
     </main>
-    <div class="side"> About me </div>
+    <hr>
+    <div class="me"> About <br>
+        Name : Aviraj Singh Rathore<br>
+        class : 10<br>
+        New Look Central School<br>
+        Motive: To find system , solution and graph pattern of a linear equation having two variables .</div>
 </body>
 
 </html>

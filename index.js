@@ -10,4 +10,17 @@ function program() {
    let r = document.getElementById("r").value;
    let pqr = p+"x+"+q+"y+"+r;
     document.getElementById("pqr").innerText = pqr;
+
+    let x = a / p;
+    let y = b / q;
+    let z = c / r;
+    if (x == y == z) {
+      document.getElementById("answer").innerText = "They are Consistent System of equations. They have Infinitely Many Solutions.";
+      }
+   else if (x == y) {
+      document.getElementById("answer").innerText = "They are Inconsistent System of equations. They have No Solution.";
+   }
+   else {
+      document.getElementById("answer").innerText = "They are Consistent System of equations. They have a Unique Solution.";
+   }
     };
