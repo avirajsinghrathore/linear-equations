@@ -1,11 +1,13 @@
 function program() {
-    let a = document.getElementById("a")[0].value;
-    // let b = document.getElementById("b")[0].value;
-    // let c = document.getElementById("c")[0].value;
+   let a = document.getElementById("a").value;
+   let b = document.getElementById("b").value;
+   let c = document.getElementById("c").value;
+   let abc = a+"x+"+b+"y+"+c;
+    document.getElementById("abc").innerText = abc;
 
-    // let p = document.getElementById("p")[0].value;
-    // let q = document.getElementById("q")[0].value;
-    // let r = document.getElementById("r")[0].value;
-    let sum = Number(a);
-    document.getElementById("answer").value = sum;
-}
+   let p = document.getElementById("p").value;
+   let q = document.getElementById("q").value;
+   let r = document.getElementById("r").value;
+   let pqr = p+"x+"+q+"y+"+r;
+    document.getElementById("pqr").innerText = pqr;
+    };

@@ -16,16 +16,17 @@
         <hr>
     </header>
     <main>
-        <p>ax+by+c=0</p> 
-    a<input type="number" id="a">
-    b<input type="number" id="b">
-    c<input type="number" id="c">
-    <p>px+qy+r=0</p>
-    p<input type="number" id="p">
-    q<input type="number" id="q">
-    r<input type="number" id="r"> <br>
-    <input type="button" id="submit" value="Submit" oneclick="program()">
-    <input type="number" id="answer">
+        <p id="abc">ax+by+c=0</p>
+        a<input type="number" id="a">
+        b<input type="number" id="b">
+        c<input type="number" id="c">
+        <p id="pqr">px+qy+r=0</p>
+        p<input type="number" id="p">
+        q<input type="number" id="q">
+        r<input type="number" id="r"> <br>
+        <button id="btn" onclick="program()">Show Results</button>
+        <div id="answer"></div>
+
     </main>
     <div class="side"> About me </div>
 </body>
