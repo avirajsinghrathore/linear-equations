@@ -5,36 +5,41 @@ body{
     background-attachment: fixed;
 }
 .heading{
+    color: white;
     text-align: center;
+    margin: 0;
     margin-left: 25vw;
-    width: 40vw;
-    font-size: 50px;
+    margin-right: 25vw;
+    font-size: 5vmax;
     font-weight: 400;
     background-image: radial-gradient(ellipse,#2b00ff, #ff0000);
     border-radius: 50px;
 }
 .eq{
+    color: white;
+    margin: 1vh;
     border-radius: 50px;    
     text-align: center;
-    margin-left: 35vw;
-    width: 20vw;
-    font-size: 35px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 3vmax;
     font-weight: 200;
-    background-image: radial-gradient(ellipse,#00ff26, #ff0000);
+    background-color: rgb(34, 244, 104);
 }
 .label{
+    color: white;
     border-radius: 25px;    
     text-align: center;
     margin-left: 35vw;
-    width: 20vw;
-    font-size: 20px;
+    margin-right: 35vw;
+    font-size: 2vmax;
     font-weight: 100;
-    background-image: radial-gradient(ellipse,#3cf959, #f53838);
+    background-color: rgb(252, 140, 28);
 }
 input[type=number] {
     width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: relative;
+    margin: 8px 2px;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -45,4 +50,52 @@ input[type=number] {
   
   input[type=number]:focus {
     border: 3px solid #555;
+  }
+#btn{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    height: 6vh;
+    width: 12vw;
+    margin-left: 43vw;
+    margin-right: 39vw;
+    border-radius: 20px;
+}
+  
+#btn:hover{
+    background-color: #008CBA;
+    color: white;
+}
+#about{
+    margin: 0;
+    text-align: center;
+    color: lightgrey;
+    background-color: rgb(4, 125, 206);
+    margin-right: 20vw;
+    margin-left:20vw;
+    font-size: 2vmax;
+}
+#info{
+    margin: 0;
+    text-align: left;
+    color: rgb(4, 125, 206);
+    background-color: lightgrey;
+    margin-right: 20vw;
+    margin-left:20vw;
+    font-size: 2vmax;
+}
+#img{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 42vw;
+    margin-right: 42vw;
+  }
+#answer{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(34, 244, 104);
   }
