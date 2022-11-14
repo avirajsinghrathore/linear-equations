@@ -1,9 +1,3 @@
-body{
-    background-image: url(/bgimg.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 .heading{
     color: white;
     text-align: center;
@@ -12,10 +6,13 @@ body{
     margin-right: 25vw;
     font-size: 5vmax;
     font-weight: 400;
-    background-image: radial-gradient(ellipse,#2b00ff, #ff0000);
     border-radius: 50px;
+    border: 3px solid lightgrey;
+    background-color: rgb(4, 125, 206);
 }
 .eq{
+    border: 2px solid lightgrey;
+    background-color: rgb(4, 125, 206);
     color: white;
     margin: 1vh;
     border-radius: 50px;    
@@ -24,47 +21,56 @@ body{
     margin-right: 30vw;
     font-size: 3vmax;
     font-weight: 200;
-    background-color: rgb(34, 244, 104);
+}
+.var{
+    background-color: rgb(56, 56, 56);
+    padding: 3px;
+    border-radius: 7px;
+}
+.section{
+border: 1px solid white;
+background-color: lightgrey;
+border-radius: 20px;
+margin-left: 35vw;
+margin-right: 35vw;
 }
 .label{
-    color: white;
+    color: rgb(255, 136, 0);
     border-radius: 25px;    
     text-align: center;
-    margin-left: 35vw;
-    margin-right: 35vw;
     font-size: 2vmax;
     font-weight: 100;
-    background-color: rgb(252, 140, 28);
 }
 input[type=number] {
+    color: rgb(255, 136, 0);
+    background-color: lightgrey;
     width: 70%;
     padding: relative;
-    margin: 8px 2px;
+    margin: 8px 8px;
     box-sizing: border-box;
-    border: 3px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    border-radius: 20px;
-  }
-  
-  input[type=number]:focus {
     border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+input[type=number]:focus {
+      border: 3px solid lightgrey;
+      background-color: rgb(56, 56, 56);
   }
 #btn{
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
+    background-color: rgb(4, 125, 206);
+    color: lightgrey;
+    border: 2px solid #ffffff;
     height: 6vh;
     width: 12vw;
     margin-left: 43vw;
     margin-right: 39vw;
     border-radius: 20px;
 }
-  
 #btn:hover{
-    background-color: #008CBA;
-    color: white;
+    background-color: lightgrey;
+    color: rgb(4, 125, 206); 
 }
 #about{
     margin: 0;
@@ -78,7 +84,7 @@ input[type=number] {
 #info{
     margin: 0;
     text-align: left;
-    color: rgb(4, 125, 206);
+    color: rgb(242, 73, 0);
     background-color: lightgrey;
     margin-right: 20vw;
     margin-left:20vw;
@@ -92,10 +98,15 @@ input[type=number] {
     margin-left: 42vw;
     margin-right: 42vw;
   }
+#answer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: rgb(242, 73, 0);
+    font-size: 2vmax;
+}
 #answer{
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 5px;
+    margin: 0 30vw;
     text-align: center;
-    background-color: rgb(34, 244, 104);
-  }
+}

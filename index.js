@@ -16,15 +16,18 @@ function program() {
     let z = c / r;
    
     if (x == y == z) {
-      document.getElementById("answer").innerText = "They are Consistent System of equations. They have Infinitely Many Solutions.";
-      document.getElementById("img").src = "/coincident.JPG";
+      document.getElementById("sys").innerText = "Consistent System of equations";
+      document.getElementById("sol").innerText = "Infinitely Many Solutions";
+      document.getElementById("graph").innerText = "Coinsiding Lines";
          }
    else if (x == y) {
-      document.getElementById("answer").innerText = "They are Inconsistent System of equations. They have No Solution.";
-      document.getElementById("img").src = "/parallel.JPG";
+      document.getElementById("sys").innerText = "InConsistent System of equations";
+      document.getElementById("sol").innerText = "No Solutions";
+      document.getElementById("graph").innerText = "Parallel Lines";
    }
    else {
-      document.getElementById("answer").innerText = "They are Consistent System of equations. They have a Unique Solution.";
-      document.getElementById("img").src = "/intersecting.JPG";
+      document.getElementById("sys").innerText = "Consistent System of equations";
+      document.getElementById("sol").innerText = "No Solutions";
+      document.getElementById("graph").innerText = "Intersecting Lines";
    }
     };
