@@ -2,12 +2,12 @@
     color: white;
     text-align: center;
     margin: 0;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     font-size: 5vmax;
     font-weight: 400;
     border-radius: 50px;
-    border: 3px solid lightgrey;
+    border: 3px solid rgb(255, 136, 0);
     background-color: rgb(4, 125, 206);
 }
 .eq{
@@ -17,8 +17,8 @@
     margin: 1vh;
     border-radius: 50px;    
     text-align: center;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     font-size: 3vmax;
     font-weight: 200;
 }
@@ -31,8 +31,8 @@
 border: 1px solid white;
 background-color: lightgrey;
 border-radius: 20px;
-margin-left: 35vw;
-margin-right: 35vw;
+margin-left: 25vw;
+margin-right: 25vw;
 }
 .label{
     color: rgb(255, 136, 0);
@@ -62,15 +62,18 @@ input[type=number]:focus {
     background-color: rgb(4, 125, 206);
     color: lightgrey;
     border: 2px solid #ffffff;
-    height: 6vh;
-    width: 12vw;
-    margin-left: 43vw;
-    margin-right: 39vw;
+    height: 8vh;
+    
     border-radius: 20px;
 }
 #btn:hover{
     background-color: lightgrey;
     color: rgb(4, 125, 206); 
+}
+#btncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #about{
     margin: 0;
@@ -90,14 +93,6 @@ input[type=number]:focus {
     margin-left:20vw;
     font-size: 2vmax;
 }
-#img{
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 5px;
-    width: 150px;
-    margin-left: 42vw;
-    margin-right: 42vw;
-  }
 #answer th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -108,5 +103,7 @@ input[type=number]:focus {
 }
 #answer{
     margin: 0 30vw;
-    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }

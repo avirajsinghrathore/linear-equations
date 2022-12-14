@@ -27,7 +27,7 @@ function program() {
    }
    else {
       document.getElementById("sys").innerText = "Consistent System of equations";
-      document.getElementById("sol").innerText = "No Solutions";
+      document.getElementById("sol").innerText = "Unique Solution";
       document.getElementById("graph").innerText = "Intersecting Lines";
    }
     };
